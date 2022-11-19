@@ -11,6 +11,7 @@
      alert("Nepravilno polje za email");
      return;
  }
+ 
 
  if(x == "" || y == ""){
      alert("Niste popunili polje ili za ime ili za prezime");

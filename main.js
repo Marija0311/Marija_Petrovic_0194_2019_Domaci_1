@@ -15,6 +15,7 @@ zahtev = $.ajax ({
     type: 'post',
     data: serijalizacija
 });
+
 //provera zahteva
 zahtev.done(function(res, textStatus, jqXHR) {
 if(res == "Success") {

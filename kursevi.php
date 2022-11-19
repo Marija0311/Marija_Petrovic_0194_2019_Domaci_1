@@ -8,6 +8,7 @@ if(!isset($_SESSION['users_id'])) {
     exit();
 }
 
+
 $kursevi = Kursevi::printKurs($conn);
 
 if(!$kursevi) {
